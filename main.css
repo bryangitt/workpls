@@ -1,0 +1,71 @@
+.container{
+    border: 1px solid black;
+    max-height: 600px;
+    height: 100%;
+    widows: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.top-header{
+    width: 100%;
+    background-color: #212733;
+    height: 150px;
+}
+.branding{
+    width: 45%;
+    border-right: 1px solid black;
+    float: left;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-right: 6px;
+    margin-left: 33px;
+}
+.callus{
+    float: left;
+    width: 49%;
+    margin-top: 20px;
+}
+.phonenum{
+    text-decoration: none;
+    color: white;
+}
+.phonenum:hover{
+    color:#1e88e5;
+}
+.phonenum::before{
+    content: "1-800-1234-567";
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 24px;
+    margin-top: -8px;
+    margin-right: 6px;
+    margin-left: 33px;
+}
+.button-top{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #FFE327;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button-top:hover{
+    background-color: #1e88e5;
+    overflow: hidden;
+    transition: .3s;
+    transition-delay: .2s;
+    color: white;
+}
+.main-content{
+    height: 637px;
+    border: 1px solid black;
+    background-image: url(https://livedemo00.template-help.com/wt_58310/images/slide02.jpg);
+    white-space: nowrap;
+    position: relative;
+}
